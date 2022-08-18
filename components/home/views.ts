@@ -35,7 +35,9 @@ export const MenuTitle = styled.div`
 `;
 
 export const Description = styled.div`
-height: 100px;
+    display: flex;
+    align-items: center;
+    height: 100px;
     padding: 5px;
     background-color: black;    
     color: white;
