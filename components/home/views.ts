@@ -33,3 +33,15 @@ export const MenuTitle = styled.div`
         border-radius: 12px;
     }
 `;
+
+export const Description = styled.div`
+height: 100px;
+    padding: 5px;
+    background-color: black;    
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    border: 1px solid white;
+    border-radius: 12px;
+    bottom: 10px;
+`;

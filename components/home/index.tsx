@@ -1,6 +1,6 @@
 import { MenuItem } from "../layouts/header/menu-items";
 import { homeMenuItems } from "./constants";
-import { MenuBar, MenuTitle, TitleMain, Wrapper } from "./views";
+import { Description, MenuBar, MenuTitle, TitleMain, Wrapper } from "./views";
 
 const HomePage = () => {
   return (
@@ -13,6 +13,9 @@ const HomePage = () => {
           </MenuTitle>
         ))}
       </MenuBar>
+      <Description>
+        This is not the final version. the project is under development...
+      </Description>
     </Wrapper>
   );
 };
